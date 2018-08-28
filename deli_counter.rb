@@ -15,8 +15,7 @@ def currentLine(line) {
   end 
 
 def numbersAndNames = []
-
-  for (let i = 0; i < line.length;  
+  numbersAndNames = 0 
   while numbersAndNames < line.length 
   counter += 1 
   {
