@@ -22,10 +22,8 @@ def numbersAndNames = []
   for (let i = 0; i < line.length;  
   while numbersAndNames < line.length 
   counter += 1 
-  #this for loop, begins when the index value i = 0, and continues for as long as the index value is less than the length of the queue (i.e. until it reaches the end of the queue of customers), and continues in increments to the next index value (the next person in the queue).
   {
     numbersAndNames.push(`${i + 1}. ${line[i]}`)
-  
   }
 
   return `The line is currently: ${numbersAndNames.join(', ')}`
