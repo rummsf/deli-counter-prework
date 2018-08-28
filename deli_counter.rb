@@ -12,7 +12,7 @@ return "Currently serving " + katzDeliLine.shift() + "."
 def currentLine(line) {
   if !line.length
     return "The line is currently empty."
-  end 
+  end }
 
 def numbersAndNames = []
   numbersAndNames = 0 
