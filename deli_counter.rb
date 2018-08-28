@@ -25,7 +25,7 @@ def numbersAndNames = []
   #this for loop, begins when the index value i = 0, and continues for as long as the index value is less than the length of the queue (i.e. until it reaches the end of the queue of customers), and continues in increments to the next index value (the next person in the queue).
   {
     numbersAndNames.push(`${i + 1}. ${line[i]}`)
-    #the push method here, inserts an element into the array, numbersAndNames.  It will insert the index value, i + 1, to inform the customer of their position in the queue.  It will follow this number with the corresponding persons name by accessing the variable line at the index value i. 
+  
   }
 
   return `The line is currently: ${numbersAndNames.join(', ')}`
