@@ -9,11 +9,10 @@ def nowServing (katzDeliLine)
 return "Currently serving " + katzDeliLine.shift() + "." 
   
   else "There is nobody waiting to be served!"
-}
 end 
 
 def currentLine(line) {
-  if !line.length {
+  if !line.length
     return "The line is currently empty."
   end 
 
