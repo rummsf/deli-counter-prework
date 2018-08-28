@@ -25,5 +25,5 @@ def numbersAndNames = []
   }
 
   return `The line is currently: ${numbersAndNames.join(', ')}`
-}
+end
 end 
