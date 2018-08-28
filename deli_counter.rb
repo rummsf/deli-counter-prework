@@ -7,7 +7,6 @@ def nowServing (katzDeliLine)
 {
   if katzDeliLine.length > 0
 return "Currently serving " + katzDeliLine.shift() + "." 
-  
   else "There is nobody waiting to be served!"
 end 
 
